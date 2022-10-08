@@ -167,8 +167,8 @@ html *:before, html *:after, body *:before, body *:after {
     height: 7vmin;
     background: #f8f414;
     border-radius: 20vmin 20vmin 0vmin 0vmin;
-    transform: rotate(90deg);
-    left: 27vmin;
+    transform: rotate(85deg);
+    left: 25vmin;
     top: 7vmin;
     z-index: 4;
     border-left: var(--border);
@@ -176,25 +176,76 @@ html *:before, html *:after, body *:before, body *:after {
     border-top: var(--border);
 }
 
-.nose::after {
-    width: 6vmin;
-    height: 7vmin;
-    background: blue;
-    transform: rotate(90deg);
-    left: -5vmin;
-    top: -20vmin;
-    z-index: 4;
-    border-left: var(--border);
+.cheek {
+    width: 10vmin;
+    height: 20vmin;
+    background: var(--color-base);
+    left: 24vmin;
+    top: 10vmin;
+    z-index: 2;
+    border-radius: 50%;
+    border-right: var(--border);
 }
 
 .beard{
     width: 25vmin;
     height: 20vmin;
+    background: linear-gradient(#d1b271,#d1b271,#d1b271,#d1b271,#fff,#fff,#fff);
+    border-radius: 20vmin ;
+    top: 33.5vmin;
+    left: 17vmin;
+    border-top: var(--border);
+    z-index: 3;
+    transform: rotate(-8deg);
+}
+
+.beard::before{
+    width: 5vmin;
+    height: 10vmin;
     background: #d1b271;
     border-radius: 20vmin ;
-    top: 33vmin;
-    left: 19vmin;
-    border: var(--border);
+    top: 5vmin;
+    left: 17vmin;
+    border-top: var(--border);
+    border-right: var(--border);
     z-index: 3;
-    transform: rotate(-5deg);
+    transform: rotate(90deg);
+}
+
+.beard::after{
+    width: 20vmin;
+    height: 20vmin;
+    background: #d1b271;
+    border-radius: 20vmin 30vmin ;
+    top: 1vmin;
+    left: .2vmin;
+    border-left: var(--border);
+    border-bottom: var(--border);
+    z-index: 3;
+    transform: rotate(-7deg);
+}
+
+.mouth{
+    width: 10vmin;
+    height: 5vmin;
+    background: #d1b271;
+    border-radius: 20vmin ;
+    top: 43vmin;
+    left: 29vmin;
+    /* border-top: var(--border); */
+    border-right: var(--border);
+    z-index: 3;
+    transform: rotate(-10deg);
+}
+
+.mouth::after {
+    width: 5vmin;
+    height: .2px;
+    background: #000;
+    top: .2vmin;
+    left: 4vmin;
+    /* border-top: var(--border); */
+    border-right: var(--border);
+    z-index: 3;
+    /* transform: rotate(1deg); */
 }
