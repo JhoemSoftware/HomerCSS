@@ -1,0 +1,31 @@
+:root{
+    --color-main: #f8f414;
+    --color-back: #000;
+    --color-mouth: #d1b271;
+    --color-eyed: #fff;
+    --border: 1px solid #000;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+html *, body * {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    box-sizing: border-box
+}
+
+html *:before,
+html *:after,
+body *:before,
+body *:after {
+    content: "";
+    position: absolute
+}

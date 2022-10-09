@@ -1,0 +1,15 @@
+@import './config.css';
+@import './mouth.css';
+@import './eyes.css';
+@import './nose.css';
+
+.head-1{
+    width: 30vmin;
+    height: 50vmin;
+    background: var(--color-main);
+    border-top: var(--border);
+    border-radius: 20vmin 20vmin 0vmin 0vmin;
+}
+
+
+

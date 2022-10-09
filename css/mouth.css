@@ -1,0 +1,61 @@
+/* Barba */
+.beard{
+    width: 25vmin;
+    height: 20vmin;
+    background: linear-gradient(var(--color-mouth),var(--color-mouth),var(--color-mouth),var(--color-eyed),var(--color-eyed));
+    border-radius: 20vmin;
+    top: 33vmin;
+    left: 20vmin;
+    border-top: var(--border);
+    z-index: 3;
+    transform: rotate(-8deg);
+}
+
+.beard::before{
+    width: 5vmin;
+    height: 10vmin;
+    background: var(--color-mouth);
+    border-radius: 20vmin ;
+    top: 5vmin;
+    left: 19vmin;
+    border-top: var(--border);
+    border-right: var(--border);
+    z-index: 3;
+    transform: rotate(90deg);
+}
+
+.beard::after{
+    width: 20vmin;
+    height: 20vmin;
+    background: var(--color-mouth);
+    border-radius: 20vmin 30vmin ;
+    top: 1vmin;
+    left: .1vmin;
+    border-left: var(--border);
+    border-bottom: var(--border);
+    z-index: 3;
+    transform: rotate(-8deg);
+}
+
+.mouth{
+    width: 10vmin;
+    height: 5vmin;
+    background: var(--color-mouth);
+    border-radius: 20vmin ;
+    top: 40vmin;
+    left: 32vmin;
+    border-top: var(--border);
+    border-right: var(--border);
+    z-index: 3;
+    transform: rotate(-10deg);
+}
+
+/* .mouth::after {
+    width: 7vmin;
+    height: .1px;
+    background: #000;
+    top: -0.5vmin;
+    left: 1vmin;
+    z-index: 3;
+    transform: rotate(3deg);
+} */

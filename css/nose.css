@@ -1,0 +1,25 @@
+/* Naríz */
+.nose{
+    width: 6vmin;
+    height: 7vmin;
+    background: var(--color-main);
+    border-radius: 20vmin 20vmin 0vmin 0vmin;
+    transform: rotate(85deg);
+    left: 26vmin;
+    top: 6.5vmin;
+    z-index: 4;
+    border-left: var(--border);
+    border-right: var(--border);
+    border-top: var(--border);
+}
+/* Pómulo 2 */
+.cheek {
+    width: 10vmin;
+    height: 20vmin;
+    background: var(--color-main);
+    left: 24vmin;
+    top: 10vmin;
+    z-index: 2;
+    border-radius: 50%;
+    border-right: var(--border);
+}

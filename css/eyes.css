@@ -1,0 +1,54 @@
+.eye-1 {
+    width: 12vmin;
+    height: 12vmin;
+    background: var(--color-eyed);
+    border-radius: 50%;
+    border: var(--border);
+    top: -5vmin;
+    left: 10vmin;
+    z-index: 5;
+}
+/* Pupila Ojo 1 */
+.eye-1::before { 
+    width: 1vmin;
+    height: 1vmin;
+    background: var(--color-back);
+    border-radius: 50%;
+    top: 6vmin;
+    left: 6vmin;
+}
+
+.eye-2 {
+    width: 11vmin;
+    height: 11vmin;
+    background: var(--color-eyed);
+    border-radius: 50%;
+    top: -5vmin;
+    left: 30vmin;
+    border: var(--border);
+    z-index: 3;
+}
+
+/* Pupila Ojo 2 */
+.eye-2::before {
+    width: 1vmin;
+    height: 1vmin;
+    background: var(--color-back);
+    border-radius: 50%;
+    top: 5vmin;
+    left: 7vmin;
+}
+
+/* Ceja */
+.eyebrow {
+    width: 4vmin;
+    height: 3vmin;
+    background: var(--color-main);
+    border-radius: 20vmin 20vmin 0vmin 0vmin;
+    transform: rotate(90deg);
+    left: 30vmin;
+    top: -20vmin;
+    z-index: 1;
+    border-top: var(--border);
+    transform: rotate(80deg);
+}
