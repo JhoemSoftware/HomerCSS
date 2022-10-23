@@ -2,7 +2,7 @@
 .beard{
     width: 25vmin;
     height: 20vmin;
-    background: linear-gradient(var(--color-mouth),var(--color-mouth),var(--color-mouth),var(--color-eyed),var(--color-eyed));
+    background: linear-gradient(var(--color-mouth),var(--color-mouth),var(--color-mouth),transparent,transparent);
     border-radius: 20vmin;
     top: 33vmin;
     left: 20vmin;
@@ -62,11 +62,11 @@
 } 
 
 .mouth::before {
-    width: 5vmin;
-    height: 5vmin;
-    background: var(--color-eyed);
-    top: 0.8vmin;
-    left: 10vmin;
+    width: 10vmin;
+    height: 10vmin;
+    background: var(--color-lienzo);
+    top: .5vmin;
+    left: 4.5vmin;
     z-index: 3;
-    transform: rotate(-2deg);
+    clip-path: polygon(50% 0,100% 100%,100% 0);
 } 

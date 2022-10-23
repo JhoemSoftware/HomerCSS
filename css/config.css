@@ -3,7 +3,8 @@
     --color-back: #000;
     --color-mouth: #d1b271;
     --color-eyed: #fff;
-    --border: 1px solid #000;
+    --border: .3px solid #000;
+    --color-lienzo: #7b93f3; /* #2D2D2D */
 }
 
 html, body {
@@ -19,7 +20,8 @@ html *, body * {
     bottom: 0;
     left: 0;
     margin: auto;
-    box-sizing: border-box
+    box-sizing: border-box;
+    background-color: var(--color-lienzo);
 }
 
 html *:before,
