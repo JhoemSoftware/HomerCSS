@@ -36,6 +36,7 @@
     z-index: 3;
     transform: rotate(-8deg);
 }
+
 /* Boca */
 .mouth{
     width: 10vmin;
@@ -71,6 +72,7 @@
     clip-path: polygon(50% 0,100% 100%,100% 0);
 }
 
+/* Labios */
 .lips {
     width: 10vmin;
     height: 5vmin;
