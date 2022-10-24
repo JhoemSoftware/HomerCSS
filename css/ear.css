@@ -1,0 +1,31 @@
+.ear {
+     width: 8vmin;
+     height: 8vmin;
+     background: var(--color-main);
+     border-radius: 50%;
+     left: -23vmin;
+     top: 13vmin;
+     z-index: 1;
+     border-left: var(--border);
+ }
+ /* Líneas Oreja */
+ .ear::after{
+     width: 4vmin;
+     height: 5vmin;
+     background: var(--color-main);
+     border-radius: 50%;
+     left: 1vmin;
+     top: 1.5vmin;
+     border-right: var(--border);
+ }
+ 
+ .ear::before{
+     width: 3vmin;
+     height: 2vmin;
+     background: var(--color-main);
+     border-radius: 50%;
+     left: 2vmin;
+     top: 3vmin;
+     border-top: var(--border);
+     z-index: 2;
+ }
