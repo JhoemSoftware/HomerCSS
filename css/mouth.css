@@ -69,4 +69,25 @@
     left: 4.5vmin;
     z-index: 3;
     clip-path: polygon(50% 0,100% 100%,100% 0);
-} 
+}
+
+.lips {
+    width: 10vmin;
+    height: 5vmin;
+    z-index: 4;
+    background: transparent;
+    border-radius: 50%;
+    top: 32vmin;
+    left: 20vmin;
+    border-bottom: var(--border);
+}
+
+.lips::after {
+    width: 9vmin;
+    height: 9vmin;
+    z-index: 5;
+    background: var(--color-mouth);
+    border-radius: 50%;
+    top: -4.7vmin;
+    left: 4vmin;
+}

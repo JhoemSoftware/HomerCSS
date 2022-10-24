@@ -2,6 +2,7 @@
 @import './head.css';
 @import './eyes.css';
 @import './nose.css';
+@import './hair.css';
 @import './ear.css';
 @import './mouth.css';
 
@@ -13,90 +14,4 @@
     top: 70vmin;
     z-index: 5;
     left: -15vmin;
-}
-/* los cabellos van de derecha a Izquierda */
-/* Cabello Oreja */
-.hair-1 {
-    width: 8vmin;
-    height: .2vmin;
-    background: var(--color-back);
-    top: -5vmin;
-    left: -15vmin;
-    z-index: 1;
-    transform: rotate(75deg);
-}
-
-.hair-1::after {
-    width: 7.5vmin;
-    height: .2vmin;
-    background: var(--color-back);
-    top: 1.7vmin;
-    transform: rotate(25deg);
-}
-
-.hair-2 {
-    width: 7vmin;
-    height: .2vmin;
-    background: var(--color-back);
-    top: -4vmin;
-    left: -22vmin;
-    z-index: 1;
-    transform: rotate(70deg);
-}
-
-.hair-2::after {
-    width: 7.5vmin;
-    height: .2vmin;
-    background: var(--color-back);
-    top: 1.7vmin;
-    transform: rotate(30deg);
-}
-
-/* Cabello cráneo */
-.hair-3 {
-    width: 9vmin;
-    height: 13vmin;
-    background: transparent;
-    z-index: 1;
-    top: -43vmin;
-    left: -10vmin;
-    border-radius: 50%;
-    transform: rotate(-30deg);
-    border-top: var(--border);
-    border-right: var(--border);
-    border-left: var(--border);
-}
-
-.hair-3::after{
-    width: 15vmin;
-    height: 10vmin;
-    border-radius: 60%;
-    background: var(--color-main);
-    top: 4.8vmin;
-    left: -4vmin;
-    transform: rotate(-20deg);
-}
-
-.hair-4 {
-    width: 9vmin;
-    height: 13vmin;
-    background: transparent;
-    z-index: 5;
-    top: -40vmin;
-    left: -15vmin;
-    border-radius: 50%;
-    transform: rotate(-30deg);
-    border-top: var(--border);
-    border-right: var(--border);
-    border-left: var(--border);
-}
-
-.hair-4::after{
-    width: 20vmin;
-    height: 10vmin;
-    border-radius: 60%;
-    background: var(--color-main);
-    top: 5.1vmin;
-    left: -6vmin;
-    transform: rotate(-20deg);
 }
