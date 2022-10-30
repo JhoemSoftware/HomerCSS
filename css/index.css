@@ -1,10 +1,10 @@
-@import './config.css';
-@import './head.css';
-@import './eyes.css';
-@import './nose.css';
-@import './hair.css';
-@import './ear.css';
-@import './mouth.css';
+@import './settings/default.css';
+@import './helpers/head.css';
+@import './helpers/eyes.css';
+@import './helpers/nose.css';
+@import './helpers/hair.css';
+@import './helpers/ear.css';
+@import './helpers/mouth.css';
 
 /* Cuello provisional */
 .neck {
