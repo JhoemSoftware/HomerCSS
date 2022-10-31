@@ -1,0 +1,18 @@
+.neck {
+     width: 20vmin;
+     height: 5vmin;
+     background: var(--color-main);
+     top: 55vmin;
+     left: .3vmin;
+     z-index: 1;
+     border-right: var(--border);
+ }
+ 
+ .neck::after {
+     width: 25vmin;
+     height: 13vmin;
+     background: var(--color-lienzo);
+     top: 5vmin;
+     left: -3vmin;
+     z-index: 2;
+ }

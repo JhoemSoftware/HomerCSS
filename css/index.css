@@ -5,13 +5,4 @@
 @import './helpers/hair.css';
 @import './helpers/ear.css';
 @import './helpers/mouth.css';
-
-/* Cuello provisional */
-.neck {
-    width: 10vmin;
-    height: 20vmin;
-    background: var(--color-lienzo);
-    top: 70vmin;
-    z-index: 5;
-    left: -15vmin;
-}
+@import './helpers/neck.css';
